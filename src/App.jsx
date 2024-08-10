@@ -42,6 +42,9 @@ function App() {
   //Mostrar datos cuando se hayan obtenido
   return (
     <div className='bg-slate-50 p-10 flex flex-col items-center h-full'>
+      <div>
+        <img src="/logo.svg" className="w-44 h-44" />
+      </div>
       <p className='text-3xl mb-4 text-'>The Cat Facts</p>
       <ul>
         {userQuery.data ? (data.pages.flatMap((page) => 
@@ -68,7 +71,7 @@ function App() {
         <button
           onClick={() => fetchNextPage()}
           disabled={!hasNextPage || isFetchingNextPage}
-          className='mt-5 bg-blue-400 px-6 py-2 rounded-full text-gray-950'
+          className='mt-5 bg-[#79877c] px-6 py-2 rounded-full text-slate-50'
         >
           {isFetchingNextPage
             ? 'Loading more facts 🐱'
