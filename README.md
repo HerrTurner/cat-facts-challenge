@@ -1,8 +1,11 @@
-# React + Vite
+# React Coding Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was developed using React and Vite
+Its purpose is to show random facts about cats in an infinite scroll comment feed.
+  
 
-Currently, two official plugins are available:
+You can visit this project [here](https://cat-facts-challenge.vercel.app/) or at https://cat-facts-challenge.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Jorge E. Turner E.
+2024.08.09
